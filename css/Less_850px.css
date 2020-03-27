@@ -1,0 +1,242 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+    min-width: 350px;
+    box-sizing: border-box;
+    font-family: sans-serif;  
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+.left {
+    background-color: #ffcc08;
+    float: left;
+    width: 100%;
+    min-width: 300px;
+    
+}
+
+img {
+    display: block;
+    width: 60%;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: 3px solid rgba(0,0,0,.1);
+}
+
+.left h2 {
+    background-color: #434343;
+    color: #ffcc08;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.4em;
+    padding: 7px 0;
+}
+
+.hidden_name {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /*display: none;*/
+}
+
+.hidden_name .fName {
+    color: #fff;
+}
+
+h2.hidden_name {
+    font-weight: normal;
+    font-size: 1.5em;
+    background-color: transparent;
+    color: #000;
+}
+
+h2.hidden_name {
+    text-transform: none;
+}
+h2.hidden_name span {
+    border-bottom: 2px solid #fff;
+}
+
+#contact, #hobbies {
+    font-weight: 500;
+}
+
+.contact-info, .about-me {
+    margin-top: 25px;
+    padding-left: 30px;
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-info p, .about-me {
+    font-size: 14px;
+    color: #434343;
+}
+
+.about-me {
+    text-align: justify;
+    width: 75%;
+    margin-bottom: 30px;
+}
+
+.icons {
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+.icons span {
+    border: 1px solid #434343;
+    border-radius: 50%;
+    padding: 9px 8px;
+    margin: 0 3%;
+    color: #434343;
+}
+
+.right {
+    float: right;
+    width: 100%;
+    min-width: 300px;
+}
+
+#name-desktop {
+    display: none;
+}
+
+.title {
+    margin: 6rem 0;
+}
+
+.title h1, h2 {
+    font-weight: 400;
+}
+
+.title h1 {
+    margin-bottom: 5px;
+    font-size: 3rem;
+}
+
+.title .first-name {
+    color: #ffcc08;
+}
+
+.title .last-name {
+    font-weight: lighter;
+    letter-spacing: -2px;
+}
+
+.title h2 {
+    margin-top: 0;
+    text-transform: none;
+    font-size: 1.4em;
+}
+
+.low-border-h2 {
+    border-bottom: 1.5px solid #ffcc08;
+    padding-bottom: 2px;
+}
+
+.section {
+    font-size: 14px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section h2 {
+    border-bottom: 2px solid #ffcc08;
+    padding-bottom: 13px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section h2 span {
+    margin-right: 27px;
+    color: #ffcc08;
+}
+
+.section .row {
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+}
+.bullet1 {
+    display: block;
+    width: .53rem;
+    height: .53rem;
+    border-radius: 50%;
+    background-color: #ffcc08;
+    margin: 2px;
+}
+
+.bullet {
+    float: left;
+    width: .53rem;
+    height: .53rem;
+    border-radius: 50%;
+    background-color: #ffcc08;
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.bullet-border {
+    float: left;
+    border: 1.5px solid #ffcc08;
+    border-radius: 50%;
+    margin-right: 13px;
+    margin-bottom: 20px;
+}
+
+.date {
+    width: 100%;
+    margin: 1% auto 1% auto;
+    border: 1px solid #ffcc08;
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: #9c9c9c;
+}
+
+.date p {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.detail {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.detail h3, h4 {
+    margin-top: 0;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.detail p {
+    text-align: justify;
+}
+.section .ref1, .ref2 {
+    float: none;
+    padding: 10px;
+}
+
+.ref1, .ref2 {
+    margin: 0 auto 15px auto;
+    width: 90%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px grey, -2px -2px 2px grey;
+}
+
+.ref1 h3,.ref1 p, .ref2 h3, .ref2 p {
+    font-weight: normal;
+    margin: 10px 0;
+}
