@@ -1,1 +1,2 @@
 # One-Page Resume HTML/CSS Template
+This is my presentation for Project 2 in Open Classrooms. The first commits on the page is a template identical to the mockup. It was also my first commits using github and git. The final changes I made are personalized version of my resume web page with my personal information and changed dominant colors!!
