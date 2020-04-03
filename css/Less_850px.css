@@ -12,7 +12,7 @@ h1, h2, h3 {
 }
 
 .left {
-    background-color: #ffcc08;
+    background-color: #0277BD;
     float: left;
     width: 100%;
     min-width: 300px;
@@ -32,7 +32,7 @@ img {
 
 .left h2 {
     background-color: #434343;
-    color: #ffcc08;
+    color: #0277BD;
     text-align: center;
     font-weight: 700;
     font-size: 1.4em;
@@ -125,7 +125,7 @@ h2.hidden_name span {
 }
 
 .title .first-name {
-    color: #ffcc08;
+    color: #0277BD;
 }
 
 .title .last-name {
@@ -140,7 +140,7 @@ h2.hidden_name span {
 }
 
 .low-border-h2 {
-    border-bottom: 1.5px solid #ffcc08;
+    border-bottom: 1.5px solid #0277BD;
     padding-bottom: 2px;
 }
 
@@ -151,7 +151,7 @@ h2.hidden_name span {
     margin-right: auto;
 }
 .section h2 {
-    border-bottom: 2px solid #ffcc08;
+    border-bottom: 2px solid #0277BD;
     padding-bottom: 13px;
     font-weight: 600;
     margin-bottom: 30px;
@@ -160,7 +160,7 @@ h2.hidden_name span {
 
 .section h2 span {
     margin-right: 27px;
-    color: #ffcc08;
+    color: #0277BD;
 }
 
 .section .row {
@@ -173,7 +173,7 @@ h2.hidden_name span {
     width: .53rem;
     height: .53rem;
     border-radius: 50%;
-    background-color: #ffcc08;
+    background-color: #0277BD;
     margin: 2px;
 }
 
@@ -182,14 +182,14 @@ h2.hidden_name span {
     width: .53rem;
     height: .53rem;
     border-radius: 50%;
-    background-color: #ffcc08;
+    background-color: #0277BD;
     margin-top: 3px;
     margin-right: 10px;
     margin-bottom: 20px;
 }
 .bullet-border {
     float: left;
-    border: 1.5px solid #ffcc08;
+    border: 1.5px solid #0277BD;
     border-radius: 50%;
     margin-right: 13px;
     margin-bottom: 20px;
@@ -198,7 +198,7 @@ h2.hidden_name span {
 .date {
     width: 100%;
     margin: 1% auto 1% auto;
-    border: 1px solid #ffcc08;
+    border: 1px solid #0277BD;
     padding: 7px;
     margin-bottom: 10px;
     background-color: #9c9c9c;
