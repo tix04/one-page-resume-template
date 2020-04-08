@@ -10,7 +10,7 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
-.left {
+aside {
     background-color: #0277BD;
     float: left;
     width: 25%;
@@ -52,7 +52,7 @@ h2.hidden-name span {
     border: 1px solid #fff;
 }
 
-.left h2 {
+aside h2 {
     background-color: #434343;
     color: #0277BD;
     text-align: center;
@@ -97,7 +97,7 @@ h2.hidden-name span {
     color: #434343;
 }
 
-.right {
+main {
     float: right;
     width: 70%;
     max-width: 900px;
@@ -140,22 +140,23 @@ h2.hidden-name span {
     padding-bottom: 2px;
 }
 
-.section {
+section, footer {
     font-size: 14px;
 }
-.section h2 {
+
+section h2, footer h2 {
     border-bottom: 2px solid #0277BD;
     padding-bottom: 13px;
     font-weight: 600;
     margin-bottom: 30px;
 }
 
-.section h2 span {
+section h2 span, footer h2 span {
     margin-right: 27px;
     color: #0277BD;
 }
 
-.section .row {
+section .row {
     width: 100%;
     overflow: hidden;
     clear: both;

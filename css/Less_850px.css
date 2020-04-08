@@ -11,7 +11,7 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
-.left {
+aside {
     background-color: #0277BD;
     float: left;
     width: 100%;
@@ -30,7 +30,7 @@ img {
     border: 3px solid rgba(0,0,0,.1);
 }
 
-.left h2 {
+aside h2 {
     background-color: #434343;
     color: #0277BD;
     text-align: center;
@@ -101,7 +101,7 @@ h2.hidden_name span {
     color: #434343;
 }
 
-.right {
+main {
     float: right;
     width: 100%;
     min-width: 300px;
@@ -145,13 +145,13 @@ h2.hidden_name span {
     padding-bottom: 2px;
 }
 
-.section {
+section, footer {
     font-size: 14px;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
-.section h2 {
+section h2, footer h2 {
     border-bottom: 2px solid #0277BD;
     padding-bottom: 13px;
     font-weight: 600;
@@ -159,7 +159,7 @@ h2.hidden_name span {
     text-align: center;
 }
 
-.section h2 span {
+section h2 span, footer h2 span {
     margin-right: 27px;
     color: #0277BD;
 }
@@ -225,7 +225,8 @@ h2.hidden_name span {
 .detail p {
     text-align: justify;
 }
-.section .ref1, .ref2 {
+
+footer .ref1, .ref2 {
     float: none;
     padding: 10px;
 }
