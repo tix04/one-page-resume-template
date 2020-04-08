@@ -107,29 +107,29 @@ main {
     display: none;
 }*/
 
-.title {
+header {
     margin: 6rem 0;
 }
 
-.title h1, h2 {
+header h1, h2 {
     font-weight: 400;
 }
 
-.title h1 {
+header h1 {
     margin-bottom: 5px;
     font-size: 3rem;
 }
 
-.title .first-name {
+header .first-name {
     color: #0277BD;
 }
 
-.title .last-name {
+header .last-name {
     font-weight: lighter;
     letter-spacing: -2px;
 }
 
-.title h2 {
+header h2 {
     margin-top: 0;
     text-transform: none;
     font-size: 1.4em;
